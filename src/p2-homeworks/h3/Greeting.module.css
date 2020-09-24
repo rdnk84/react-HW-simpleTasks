@@ -1,0 +1,36 @@
+.hw3Wrapper {
+    background-color: cadetblue;
+    justify-content: center;
+
+}
+
+.greetingContainerWrapper {
+    /*border: 2px solid olivedrab;*/
+    justify-content: center;
+    display: flex;
+    max-width: 500px;
+    margin: 5px auto;
+}
+
+.greetingWrapper {
+    margin: 2px 0;
+    /*border: 2px solid purple;*/
+}
+
+.error {
+    border: 1px solid red;
+
+}
+
+.errorMessage {
+    color: red;
+}
+
+.totalUsersResult{
+    color: #463c7e;
+    font-size: 20px;
+    font-weight: bold;
+    /*border: 2px solid purple;*/
+    text-align: right;
+    padding-right: 1px;
+}

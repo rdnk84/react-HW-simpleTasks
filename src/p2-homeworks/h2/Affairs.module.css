@@ -1,0 +1,42 @@
+.hw2Wrapper {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.AffairsWrapper {
+    /*justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid blue;*/
+}
+
+
+.AffairWrapper {
+    margin: 5px 0;
+    color: white;
+    font-size: 1.2em;
+    justify-content: space-between;
+    display: flex;
+    /*border: 1px solid blue;*/
+}
+
+.AffairWrapper button {
+    /*margin-left: 10px;*/
+}
+
+.deleteBtn {
+    color: mediumvioletred;
+    font-weight: bold;
+    background-color: transparent;
+    width: 10px;
+    height: 25px;
+}
+
+.btnWrapper button {
+    margin: 0 2px;
+}
+.forActiveBtn {
+    color: white;
+    background-color: mediumvioletred;
+}

@@ -1,0 +1,63 @@
+.Hw1Block {
+    justify-content: center;
+    display: flex;
+    /*border: 2px red solid;*/
+}
+
+MessageWindow {
+    display: flex;
+
+}
+
+.TxtWindow {
+    width: 300px;
+    height: 70px;
+    background-color: cadetblue;
+    margin: 10px;
+    /*border: 2px red solid;*/
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+
+.Avatar {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.Avatar img {
+    display: inline;
+    width: 50px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 20px;
+    margin-bottom: -22px;
+}
+
+.TxtWindow:before {
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid cadetblue;
+    border-bottom: 10px solid cadetblue;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    margin-top: -100px;
+}
+
+.Name {
+    color: mediumvioletred;
+    font-size: 20px;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.Time {
+    font-size: 16px;
+    position: absolute;
+    bottom: 3px;
+    left: 265px;
+}
