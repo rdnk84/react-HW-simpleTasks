@@ -18,7 +18,7 @@ function Header() {
                 <div className={s.item}><NavLink to={"/blabla"} activeClassName={s.active}>nothing to see</NavLink></div>
                 {/*add NavLinks*/}
             </div>
-            <div onClick={onPanelClick} className={s.panelToClick}> <a href=""></a> </div>
+            <button onClick={onPanelClick} className={s.panelToClick}> Menu </button>
         </div>
 
     );
