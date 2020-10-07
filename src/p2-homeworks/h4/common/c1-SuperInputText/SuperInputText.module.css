@@ -4,12 +4,12 @@
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 3px solid #c7215f;
+    background: white;
 }
 
 .error {
-    color: red;
+    color: #c7215f;
 }
 
 .spanClassName {

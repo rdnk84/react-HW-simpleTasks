@@ -1,6 +1,7 @@
 .default {
-background-color: purple;
+    background-color: purple;
     color: white;
+    margin-top: 10px;
 }
 
 .red {

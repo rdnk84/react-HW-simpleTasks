@@ -1,0 +1,10 @@
+/*.SuperSelectWrapper {*/
+/*    background-color: white;*/
+/*}*/
+
+.SuperSelectOptionClassName {
+    border: 3px solid cadetblue;
+    background-color: white;
+    color: cadetblue;
+}
+

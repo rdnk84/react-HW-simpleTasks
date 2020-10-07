@@ -1,11 +1,17 @@
 import React, {useState} from "react";
 import SuperSelect from "./common/c5-SuperSelect/SuperSelect";
 import SuperRadio from "./common/c6-SuperRadio/SuperRadio";
+import s from "./common/c5-SuperSelect/SuperSelect.module.css"
 
 const arr = ["x", "y", "z"];
 
 function HW7() {
     const [value, onChangeOption] = useState(arr[1]);
+    // const [value, setValue] = useState(arr[1]);
+
+    // const onChangeOption = () => {
+    //     onChangeOption(value)
+    // }
 
     return (
         <div>
@@ -13,7 +19,7 @@ function HW7() {
             homeworks 7
 
             {/*should work (должно работать)*/}
-            <div>
+            <div className={s.SuperSelectWrapper}>
                 <SuperSelect
                     options={arr}
                     value={value}

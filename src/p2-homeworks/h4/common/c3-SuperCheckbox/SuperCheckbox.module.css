@@ -1,8 +1,9 @@
 .checkbox {
-border: 5px solid #463c7e ;
+    border: 5px solid #463c7e;
     background-color: cadetblue;
 }
 
 .spanClassName {
-
+    margin-left: 7px;
+    color: #47fdca;
 }
