@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "808111f285237fb442a09535571efdf5",
+    "revision": "4f46a902e8ce4d61c6fe16820bc2b6b1",
     "url": "/react-HW-simpleTasks/index.html"
   },
   {
-    "revision": "9300a58ec667a5b09afc",
+    "revision": "d28c6bc6408d63ef42db",
     "url": "/react-HW-simpleTasks/static/css/main.e2e9f325.chunk.css"
   },
   {
-    "revision": "4733c25ea46553291818",
-    "url": "/react-HW-simpleTasks/static/js/2.c8dfe616.chunk.js"
+    "revision": "5a891e89ebdcc3da1b9b",
+    "url": "/react-HW-simpleTasks/static/js/2.cd847d1f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-HW-simpleTasks/static/js/2.c8dfe616.chunk.js.LICENSE.txt"
+    "url": "/react-HW-simpleTasks/static/js/2.cd847d1f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9300a58ec667a5b09afc",
-    "url": "/react-HW-simpleTasks/static/js/main.8fbfcf13.chunk.js"
+    "revision": "d28c6bc6408d63ef42db",
+    "url": "/react-HW-simpleTasks/static/js/main.2ae244ab.chunk.js"
   },
   {
     "revision": "ec1fd3841f05ea214816",
