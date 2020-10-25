@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {homeWorkReducer} from "./bll/homeWorkReducer";
+import {CHECKEIGHTEEN, homeWorkReducer, SORT} from "./bll/homeWorkReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 export type PeopleType = {
@@ -27,9 +27,9 @@ function HW8() {
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "up"}))
-    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "down"}))
-    const check = () => setPeople(homeWorkReducer(initialPeople, {type: "check", payload: "sortBy18"}))
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: SORT, payload: "up"}))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: SORT, payload: "down"}))
+    const check = () => setPeople(homeWorkReducer(initialPeople, {type: CHECKEIGHTEEN, payload: "sortBy18"}))
 
     return (
         <div>

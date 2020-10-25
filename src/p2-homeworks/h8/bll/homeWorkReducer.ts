@@ -1,14 +1,21 @@
 import {PeopleType} from "../HW8";
 
-export const SORT = "homeworks"
-export type ActionType = {
-    type: string
-    payload: string | number
-}
+export const SORT = "homeworks/HW8/SORT";
+export const CHECKEIGHTEEN = "homeworks/HW8/CHECK";
 
-export const homeWorkReducer = (state: Array<PeopleType>, action: ActionType): Array<PeopleType> => {
+export type SortActionType = {
+    type: typeof SORT
+    payload: string
+}
+export type CheckActionType = {
+    type: typeof  CHECKEIGHTEEN
+    payload: string
+}
+ type ActionsType = SortActionType | CheckActionType
+
+export const homeWorkReducer = (state: Array<PeopleType>, action: ActionsType): Array<PeopleType> => {
         switch (action.type) {
-            case 'sort': {
+            case SORT: {
                 let newState = [...state];
                 let sortedNewState = newState.sort((a, b) => (a.name > b.name)
                     ? 1
@@ -25,7 +32,7 @@ export const homeWorkReducer = (state: Array<PeopleType>, action: ActionType): A
                 }
                 return state
             }
-            case "check": return state.filter(o => o.age >= 18)
+            case CHECKEIGHTEEN: return state.filter(o => o.age >= 18)
 
             default:
                 return state

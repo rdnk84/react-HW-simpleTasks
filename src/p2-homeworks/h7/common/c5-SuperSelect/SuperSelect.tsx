@@ -26,7 +26,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     }
 
     return (
-        //нужно value={value}?
         <select className={s.SuperSelectOptionClassName}
                 onChange={onChangeCallback}
                 {...restProps}>
