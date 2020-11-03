@@ -12,6 +12,7 @@ import HW6 from "../../../p2-homeworks/h6/HW6";
 function App() {
     return (
         <div className={s.App}>
+
             {/*<div>react homeworks:</div>*/}
             {/*<HW1/>*/}
             {/*<HW2/>*/}
