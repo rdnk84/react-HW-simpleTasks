@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {CHECKEIGHTEEN, homeWorkReducer, SORT} from "./bll/homeWorkReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import styles from "../../p1-main/m1-ui/u1-app/App.module.css"
 
 export type PeopleType = {
     _id: number
@@ -32,9 +33,9 @@ function HW8() {
     const check = () => setPeople(homeWorkReducer(initialPeople, {type: CHECKEIGHTEEN, payload: "sortBy18"}))
 
     return (
-        <div>
-            <hr/>
-            HW 8
+        <div className={styles.containerForHW}>
+            <hr className={styles.classForHr}/>
+            homeworks 8
 
             {/*should work (должно работать)*/}
 
@@ -45,10 +46,9 @@ function HW8() {
 
             {/*check 18*/}
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
-            <hr/>
+
         </div>
     );
 }

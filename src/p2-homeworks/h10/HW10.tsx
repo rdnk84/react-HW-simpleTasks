@@ -4,6 +4,7 @@ import preloader from "../../p1-main/assets/loading.gif"
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
 import { loadingAC } from "./bll/loadingReducer";
+import styles from "../../p1-main/m1-ui/u1-app/App.module.css"
 
 function HW10() {
     // useSelector, useDispatch
@@ -21,8 +22,8 @@ function HW10() {
     };
 
     return (
-        <div>
-            <hr/>
+        <div className={styles.containerForHW}>
+            <hr className={styles.classForHr}/>
             homeworks 10
 
             {/*should work (должно работать)*/}
@@ -38,10 +39,9 @@ function HW10() {
                 )
             }
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<Alternative/>*/}
-            <hr/>
+
         </div>
     );
 }

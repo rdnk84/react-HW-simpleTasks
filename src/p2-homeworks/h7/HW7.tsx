@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import SuperSelect from "./common/c5-SuperSelect/SuperSelect";
 import SuperRadio from "./common/c6-SuperRadio/SuperRadio";
 import s from "./common/c5-SuperSelect/SuperSelect.module.css"
+import styles from "../../p1-main/m1-ui/u1-app/App.module.css"
 
 
 function HW7() {
@@ -14,8 +15,8 @@ function HW7() {
     // }
 
     return (
-        <div>
-            <hr/>
+        <div className={styles.containerForHW}>
+            <hr className={styles.classForHr}/>
             homeworks 7
 
             <div className={s.SuperSelectWrapper}>
@@ -34,10 +35,7 @@ function HW7() {
                 />
             </div>
 
-            <hr/>
-
-            <hr/>
-        </div>
+           </div>
     );
 }
 

@@ -1,3 +1,9 @@
 .range {
+color: #47fdca;
+    background: #47fdca;
+}
 
+.doubleSuperRange {
+    width: 200px;
+    margin: 0 auto;
 }
